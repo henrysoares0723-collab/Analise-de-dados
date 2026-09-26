@@ -14,5 +14,5 @@ for coluna in tabela:
     grafico = px.histogram(tabela, x=coluna, color='Categoria' )
     grafico.show()
 
-#De acordo com analise dos graficos noata-se que quanto mia sprodutos contratados um cliente tem, menor a chance dele cancelar, e quanto mais transações e maior o vsalor de transações, menor a chance de cancelar
+#De acordo com analise dos graficos noata-se que quanto mais produtos contratados um cliente tem, menor a chance dele cancelar, e quanto mais transações e maior o valor de transações, menor a chance de cancelar
 #Quanto maior a quantidade de contatos que a pessoa teve que fazer, maior a chance de ser cancelado 
