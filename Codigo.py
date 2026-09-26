@@ -10,5 +10,6 @@ print(tabela.describe())
 qtd_categoria_perc = tabela['Categoria'].value_counts(normalize=True).round(2)
 print(qtd_categoria_perc)
 
-grafico = px.histogram(tabela, x='Idade', color='Categoria' )
-grafico.show()
+for coluna in tabela:
+    grafico = px.histogram(tabela, x=coluna, color='Categoria' )
+    grafico.show()
